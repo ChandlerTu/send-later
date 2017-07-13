@@ -1,1 +1,1 @@
-sendlater -classpath %~dp0..\lib\* com.chandlertu.sendlater.SendLater
+start sendlater -classpath %~dp0..\lib\* com.chandlertu.sendlater.SendLater

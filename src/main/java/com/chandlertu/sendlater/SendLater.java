@@ -1,4 +1,5 @@
 package com.chandlertu.sendlater;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,7 +17,7 @@ public class SendLater {
 		Instant start = Instant.now();
 
 		Properties props = new Properties();
-		Path path = Paths.get(System.getProperty("user.home"), ".send-later", "mail.properties");
+		Path path = Paths.get(System.getProperty("user.home"), ".sendlater", "mail.properties");
 		try (InputStreamReader inStream = new InputStreamReader(new FileInputStream(path.toFile()), "utf-8")) {
 			props.load(inStream);
 		} catch (IOException e) {

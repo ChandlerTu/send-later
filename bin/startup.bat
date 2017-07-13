@@ -1,0 +1,1 @@
+start sendlater -classpath %~dp0..\target\* com.chandlertu.sendlater.SendLater

@@ -21,12 +21,12 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<descriptors>
-						<descriptor>src/assembly/assembly.xml</descriptor>
+						<descriptor>src/assembly/src.xml</descriptor>
 					</descriptors>
 				</configuration>
 				<executions>
 					<execution>
-						<id>assembly</id>
+						<id>make-assembly</id>
 						<phase>package</phase>
 						<goals>
 							<goal>single</goal>
